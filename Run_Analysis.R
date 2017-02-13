@@ -1,4 +1,3 @@
-
 file <- "data.zip"
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 data_path <- "UCI HAR Dataset"
@@ -114,7 +113,3 @@ colnames(dataset2)[-c(1:2)] <- paste(colnames(dataset2)[-c(1:2)], "_mean", sep="
 
 # Save tidy dataset2 into results folder
 saveResult(dataset2,"dataset2")
-
-
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms
